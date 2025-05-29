@@ -1,0 +1,149 @@
+* {
+    box-sizing: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: #484848;
+}
+
+
+header {
+    height: 4rem;
+    background-color: #3C65F0;
+    font-size: 0.8rem;
+    color: white;
+    padding-right: 1rem;
+    position: relative;
+}
+
+.contenedor-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    color: #484848;
+    background-color: #fdfeff;
+    
+    align-items: center;
+    padding: 1rem;
+}
+
+.section1 {
+    text-align: center;
+    
+    padding: 4rem;
+}
+
+.section2 {
+    display: grid;
+    
+    padding: 3rem 0;
+}
+
+.title-section2 h3 {
+    margin-bottom: -0.5rem;
+}
+
+@media (max-width: 400) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;;
+    }
+}
+
+.grid-item {
+    border: 1px solid #484848;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 1rem;
+}
+
+footer {
+    display: grid;
+    background-color: #1d47d2;
+    font-size: 0.6em;
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    gap: 1rem;
+}
+
+.footer-item {
+    width: 100%;
+    text-align: center;
+}
+
+/* Contact specific styles page */
+
+textarea {
+    resize: horizontal;
+    width: 300px;  
+}
+
+label {
+    display: block;
+    resize: horizontal;
+}
+
+input[type="text"], input[type="email"], input[type="textarea"] {
+    width: 300px;
+}
+
+button {
+    background-color: #3C65F0;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form label,
+.form input,
+.form textarea,
+.form button {
+    text-align: left;
+    width: 300px;
+    max-width: 100%;
+}
+.form button {
+    width: auto;
+    align-self: center;
+}

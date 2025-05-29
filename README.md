@@ -1,2 +1,6 @@
-# curso-front-entrega
-Proyecto creado para subir las entregas del curso de front end de Talento Tech. Por Barbara Kleiman.
+Hola a todxs!
+
+Esta es la pre entrega de mi proyecto del curso de Front End en JS de Talento Tech.
+La tarea es crear un sitio web funcinal con su estructura, etc.
+
+Asiqeu  vamos a ello! Bienvenidos al portfolio de Barbara Kleiman ;) 
