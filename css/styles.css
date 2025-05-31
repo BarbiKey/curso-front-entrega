@@ -57,7 +57,19 @@ main {
     text-align: center;
     padding: 1rem;
     margin: 0 10rem;
-    border: 2px solid purple;
+
+}
+
+@media (max-width: 900px) {
+    .section1 {
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .section1 {
+        margin: 0 0.5rem;
+    }
 }
 
 .section2 {
@@ -67,7 +79,6 @@ main {
 
 .title-section2 h3 {
     margin-bottom: -0.5rem;
-    border: 2px solid green;
 }
 
     .grid-container {
